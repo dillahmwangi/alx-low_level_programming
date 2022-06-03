@@ -2,17 +2,17 @@
 /**
  *main - entry point
  *
- *Description:prints all possible combinations of single-digit no.
+ *Description:prints all possible combinations of single digit number
  *
  *Return: Always zero
  */
 int main(void)
 {
-	int dig, i;
+	int digit, i;
 
-	for (dig = 48, i = 0; i < 10; dig++, i++)
+	for (digit = 48, i = 0; i < 10; digit++, i++)
 	{
-		putchar(dig);
+		putchar(digit);
 		if (i < 9)
 		{
 			putchar(44);
