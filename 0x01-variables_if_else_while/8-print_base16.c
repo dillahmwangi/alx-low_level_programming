@@ -2,7 +2,7 @@
 /**
  *main - entry point
  *
- *Description:prints numbers of base16 in lowercase
+ *Description:prints numbers of base 16 in lowercase
  *
  *Return: Always zero
  */
