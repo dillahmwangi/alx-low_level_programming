@@ -2,18 +2,18 @@
 #include <ctype.h>
 
 /**
-* main - print alphabet in lowercase
-* Use putchar onlu 2times
-* Return: 0
-*/
+ * main - print the alphabet in lowercase, followed by a new line
+ * You can only use the putchar 2 times
+ * Return: 0
+ */
 
 int main(void)
 {
-int lower = 'a';
-while (lower <= 'z')
+int lw = 'a';
+while (lw <= 'z')
 {
-putchar(lower);
-lower +=1;
+putchar(lw);
+lw += 1;
 }
 putchar('\n');
 return (0);
