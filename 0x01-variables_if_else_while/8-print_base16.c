@@ -3,18 +3,18 @@
  *main - entry point
  *
  *Description:prints numbers of base16 in lowercase
- *Use putchar onlt 3 times
- *Return: Always 0
+ *
+ *Return: Always zero
  */
 int main(void)
 {
-	int digit, letter, b;
+	int digit, letter, c;
 
-	for (digit = 48, b = 0; b < 10; digit++, b++)
+	for (digit = 48, c = 0; c < 10; digit++, c++)
 	{
 		putchar(digit);
 	}
-	for (letter = 97, b = 1; b < 7; letter++, b++)
+	for (letter = 97, c = 1; c < 7; letter++, c++)
 	{
 		putchar(letter);
 	}
