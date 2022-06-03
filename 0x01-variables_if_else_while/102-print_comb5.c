@@ -1,26 +1,26 @@
 #include <stdio.h>
 /**
  *main - entry point
- *use putchar 8 times max
+ *
  *Return:0 - success
  *
  */
 int main(void)
 {
-	int ab, cd;
+	int a, b;
 
-	for (ab = 0; ab < 100; ab++)
+	for (a = 0; a < 100; a++)
 	{
-		for (cd = 1; cd < 100; cd++)
+		for (b = 1; b < 100; b++)
 		{
-			if (ab < cd)
+			if (a < b)
 			{
-				putchar((ab / 10) + '0');
-				putchar((ab % 10) + '0');
+				putchar((a / 10) + '0');
+				putchar((a % 10) + '0');
 				putchar(' ');
-				putchar((cd / 10) + '0');
-				putchar((cd % 10) + '0');
-				if (!(ab == 98 && cd == 99))
+				putchar((b / 10) + '0');
+				putchar((b % 10) + '0');
+				if (!(a == 98 && b == 99))
 				{
 					putchar(',');
 					putchar(' ');
