@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-#include<stdio.h>
-=======
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point, assign random number
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -29,4 +26,3 @@ printf("%d is zero\n", n);
 }
 return (0);
 }
->>>>>>> 11673508f25d73a79be222f4c5692273b0d6d39c
