@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
-* main - print in lowercase and then in uppercase
-* Return: 0
-*/
+ * main - print in lower and then upper,
+ * You can only use the putchar 3times
+ * Return: 0
+ */
 
 int main(void)
 {
@@ -12,12 +13,12 @@ int upper = 'A';
 while (lower <= 'z')
 {
 putchar(lower);
-lower +=1;
+lower += 1;
 }
 while (upper <= 'Z')
 {
 putchar(upper);
-upper +=1;
+upper += 1;
 }
 putchar('\n');
 return (0);
