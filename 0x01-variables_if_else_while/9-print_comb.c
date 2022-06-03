@@ -2,9 +2,9 @@
 /**
  *main - entry point
  *
- *Description:prints all possible combinations of single digit number
- *
- *Return: Always zero
+ *Description: prints all possible combinations of single digit number
+ *Use putchar max 4 times 
+ *Return: Always 0
  */
 int main(void)
 {
