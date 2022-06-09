@@ -4,7 +4,7 @@
  * print_most_numbers - entry point
  *
  * Description: Prints the numbers with _putchar
- *
+ * Do not print 2 and 4
  * Return: void
  */
 
