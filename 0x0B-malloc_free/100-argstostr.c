@@ -1,6 +1,6 @@
 /*
  * File: 5-argstostr.c
- * Auth: Brennan D Baraban
+ * Auth: Charity Mwangi
  */
 
 #include "main.h"
