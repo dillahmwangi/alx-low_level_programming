@@ -1,6 +1,6 @@
 /*
  * File: 2-str_concat.c
- * Auth: Brennan D Baraban
+ * Auth: Charity Mwangi
  */
 
 #include "main.h"

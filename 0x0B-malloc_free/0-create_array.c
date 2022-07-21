@@ -1,6 +1,6 @@
 /*
  * File: 0-create_array.c
- * Auth: Brennan D Baraban
+ * Auth: Charity Mwangi
  */
 
 #include "main.h"
