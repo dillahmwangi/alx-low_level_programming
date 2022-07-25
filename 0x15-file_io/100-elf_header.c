@@ -1,3 +1,8 @@
+/*
+ * File: 100-elf_header.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -34,7 +39,7 @@ void check_elf(unsigned char *e_ident)
 		    e_ident[index] != 'L' &&
 		    e_ident[index] != 'F')
 		{
-dprintf(STDERR_FILENO, "Error: Not an ELF file\n");
+			dprintf(STDERR_FILENO, "Error: Not an ELF file\n");
 			exit(98);
 		}
 	}
@@ -74,7 +79,7 @@ void print_class(unsigned char *e_ident)
 	switch (e_ident[EI_CLASS])
 	{
 	case ELFCLASSNONE:
-	printf("none\n");
+		printf("none\n");
 		break;
 	case ELFCLASS32:
 		printf("ELF32\n");
