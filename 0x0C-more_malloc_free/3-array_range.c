@@ -1,6 +1,6 @@
 /*
  * File: 3-array_range.c
- * Auth: Brennan D Baraban
+ * Auth: Charity Mwangi
  */
 
 #include "main.h"
