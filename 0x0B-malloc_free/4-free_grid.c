@@ -1,6 +1,6 @@
 /*
  * File: 4-free_grid.c
- * Auth: Brennan D Baraban
+ * Auth: Charity Mwangi
  */
 
 #include "main.h"
