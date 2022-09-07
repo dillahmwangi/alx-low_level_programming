@@ -1,8 +1,3 @@
-/*
- * File: 2-print_strings.c
- * Auth: Brennan D Baraban
- */
-
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
