@@ -1,6 +1,6 @@
 /*
  * File: 2-main.c
- * Auth: Brennan D Baraban
+ * Auth: Charity Mwangi
  */
 
 #include <stdio.h>
