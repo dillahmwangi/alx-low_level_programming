@@ -3,7 +3,7 @@
 
 /*
  * File: MAIN.h
- * Auth: Brennan D Baraban
+ * Auth: Charity Mwangi
  * Desc: Header file containing the prototypes of all functions
  *       included in the static library libmain.a.
  */
