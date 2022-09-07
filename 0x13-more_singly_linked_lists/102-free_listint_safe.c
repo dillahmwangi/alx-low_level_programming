@@ -1,6 +1,6 @@
 /*
  * File: 102-free_listint_safe.c
- * Auth: Brennan D Baraban
+ * Auth: Charity Mwangi
  */
 
 #include "lists.h"
